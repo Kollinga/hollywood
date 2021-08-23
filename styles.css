@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* padding:0;
+    margin:0; */
+}
+
+h2 {
+  font-family: "Roboto"sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  font-family: "Roboto"sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  background-color: #007aff;
+  color: #ffffff;
+  padding: 0;
+}
+
+.image-logo {
+  max-width: 150px;
+  height: 100%;
+}
+
+.navbar-item {
+  padding: 0 18px;
+  font-size: 18px;
+}
+
+.nav-imagenes {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+/* Introduction */
+#intro {
+  /* padding: 0; */
+  text-align: center;
+  /* background-color: #F8DC81; */
+}
+
+.image-intro {
+  width: 100%;
+}
+
+.p-intro {
+  font-family: "Play"sans-serif;
+  font-size: 25px;
+}
+
+
+/* Games  */
+#games {
+  background-color: #f0b410;
+  padding: 0 15%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.image-card {
+  max-width: 100%;
+  max-height: 650px;
+}
+/* Slots */
+#slots{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f34442;
+
+  /* linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%); */
+  padding-bottom: 5px;
+}
+
+.wrapper .outer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.wrapper .card{
+  background: #fff;
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  justify-content: space-between;
+  border-radius: 100px 20px 20px 100px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  animation: animate 15s linear infinite;
+  animation-delay: calc(3s * var(--delay));
+  text-align: center;
+
+}
+.outer:hover .card{
+  animation-play-state: paused;
+}
+.wrapper .card:last-child{
+  animation-delay: calc(-3s * var(--delay));
+}
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: translateY(100%) scale(0.1);
+  }
+  5%, 20%{
+    opacity: 0.4;
+    transform: translateY(70%) scale(0.3);
+  }
+  25%, 40%{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0%) scale(1);
+  }
+  45%, 60%{
+    opacity: 0.4;
+    transform: translateY(-70%) scale(0.3);
+  }
+  65%, 100%{
+    opacity: 0;
+    transform: translateY(-100%) scale(0.1);
+  }
+}
+.card .content{
+  display: flex;
+  align-items: center;
+}
+.wrapper .card .img{
+  height: 360px;
+  width: 360px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+.card .img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card .details{
+  margin-left: 80px;
+}
+.details span{
+  font-weight: 600;
+  font-size: 18px;
+}
+.card a{
+  text-decoration: none;
+  padding: 7px 18px;
+  border-radius: 25px;
+  color: #fff;
+  background: #007aff ;
+  transition: all 0.3s ease;
+}
+.card a:hover{
+  transform: scale(0.94);
+}
+.p-slots{
+  margin-left: 300px;
+  text-align: left;
+  padding: 20px;
+}
+/* Promotions */
+#promo {
+  text-align: center;
+  background-color: #10EAF0;
+  padding: 2% 15%;
+  /* padding: 5% 0; */
+}
+
+.h2-promo {
+  font-family: "Roboto"sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #f0b410;
+}
+
+.p-promo {
+  font-family: "Play"sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  color: #fff;
+}
+
+.image-promo {
+  max-width: 80%;
+  /* max-height: 30rem; */
+}
+
+.about {
+  background-color: #9babb9;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Jackpots */
+#jackpots {
+  /* background-color: #333333; */
+  text-align: center;
+  padding: 0 5%;
+}
+
+#jp-header {
+  color: #f0b410;
+  background-color: #333333;
+  margin: 0;
+  border: 10px;
+  border-style: dotted;
+  border-color: #f0b410;
+  border-spacing: 5px;
+  border-radius: 30%;
+  padding: 0.5rem;
+  font-family: "Roboto"sans-serif;
+}
+
+.feature-box {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px;
+  border-style: solid;
+  border-color: #f0b410;
+  padding: 1%;
+}
+
+.img-jackpot {
+  max-width: 100%;
+  max-height: 75px;
+}
+
+.h3-header {
+  padding: 2% 0;
+}
+
+.h3-jackpot {
+  border: 10px;
+  border-style: dotted;
+  border-color: #f0b410;
+  border-spacing: 5px;
+  padding: 0.5rem;
+  font-family: "Roboto"sans-serif;
+}
+
+/* estos 3 estilos container-jackpot, last-title,last-Winners es para colocar un texto vertical */
+/* .container-jackpot {
+  position: absolute;
+  width: 90%;
+  transform: translate(0, -50%);
+  top: 50%;
+}
+
+.last-title {
+  writing-mode: vertical-lr;
+  display: inline;
+  background-color: #000000;
+  color: white;
+  padding: 15px;
+  word-spacing: 2px;
+  letter-spacing: 1.2px;
+  transform: rotate(180deg);
+}
+
+.last-winner {
+  display: inline;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  text-align: justify;
+  letter-spacing: 0.6px;
+} */
