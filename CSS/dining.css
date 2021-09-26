@@ -1,0 +1,121 @@
+#dining {
+  background-color: #fff;
+  margin-top: 110px;
+  /* padding: 7% 15%; */
+}
+
+img {
+  width: 100%;
+}
+
+.container-iso {
+  padding: 1% 5%;
+  text-align: center;
+  align-items: center;
+}
+
+.container-iso img {
+  width: 50%;
+}
+
+.iso-h2 {
+  font-family: "Ubuntu";
+  text-align: left;
+  color: #0c5297;
+}
+
+.iso-h3{
+  font-family: "Ubuntu";
+  text-align: left;
+  color: #fff;
+
+}
+.iso-p {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #0c5297;
+}
+
+.iso-hr {
+  color: #0c5297;
+}
+
+.iso-li{
+  font-size: 1.5rem;
+  font-family: "Ubuntu";
+  list-style:none;
+  text-align: left;
+  letter-spacing: 2.5px;
+
+}
+
+.iso-li::before{
+  content: "\1F37D";
+  font-size: 2rem;
+  /* margin-right: 5px; */
+}
+
+.iso-a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.iso-button{
+  background: #d5aa2a;
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Ubuntu";
+  margin-top: 20px;
+  padding: 2%;
+}
+
+.iso-button:hover{
+  background: #0c5297;
+}
+
+.iso-button a:hover{
+  color: #fff;
+}
+
+.col-md-8 h2 {
+  color: #0c5297;
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.col-md-8 img {
+  /* border-radius: 5%; */
+}
+
+.col-md-4 {
+  background-color: #0c9344;
+  margin-left: 0;
+  padding: 5%;
+  border: 1px solid;
+  /* border-radius: 5%; */
+  border-color: #fff;
+  color: #fff;
+}
+
+.col-md-4 h3 {
+  font-size: 2rem;
+  padding: 0 5% 10% 5%;
+}
+
+.col-md-4 p {
+  font-size: 1rem;
+  text-align: left;
+  /* border: 1px solid;
+  padding: 2%; */
+}
+
+.col-pizza {
+  background-color: #fff;
+  color: #000;
+}

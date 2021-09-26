@@ -1,0 +1,87 @@
+#backstage {
+  margin-top: 110px;
+}
+
+.backstage-h1 {
+  font-family: "Ubuntu" sans-serif;
+  font-size: 4rem;
+  color: #08335e;
+  padding-top: 1rem 0 1rem 0;
+  text-align: center;
+}
+.backstage-h2{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  color: #d5aa2a;
+  text-align: left;
+
+}
+.backstage-h3 {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  text-align: center;
+  color: #08335e;
+  }
+
+.backstage-p{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  color: #08335e;
+  text-align: left;
+
+}
+
+.backstage-img {
+  width: 100%;
+}
+
+.container-backstage {
+  padding: 2% 5%;
+}
+
+.container-backstage hr {
+  color: #d5aa2a;
+  height: 3px;
+  box-shadow: none;
+
+}
+
+.backstage-col-4 {
+  background-color: #edf4fb;
+  padding: 2%;
+  color: #08335e;
+}
+
+.backstage-ul{
+  padding:15% 5%;
+}
+
+.backstage-li {
+  font-size: 2rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  list-style: none;
+  text-align: left;
+  letter-spacing: 2.5px;
+}
+
+.backstage-li::before {
+  content: "\2663";
+  font-size: 2rem;
+}
+
+.backstage-a {
+  font-size: 1.5rem;
+  font-family: "Ubuntu";
+  color: #08335e;
+  text-decoration: none;
+}
+.anchor {
+}
+
+.backstage-col-md-6 {
+
+  background-color: #edf4fb;
+  padding: 2%;
+  color: #08335e;
+}
